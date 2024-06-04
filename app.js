@@ -2,14 +2,13 @@
 //Definindo uma mensagem
 alert('Seja Bem Vindo! Jogo: Número Secreto!!');
 
-let numeroMaximo = 100;
+let numeroMaximo = 10;
 //declarando uma variável - ultilizar "LET"
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 //let numeroSecreto = 9;
-console.log('Valor do número secreto:', numeroSecreto);
-
 let chute;
 let tentativas = 1;
+console.log('Valor do número secreto:', numeroSecreto);
 
 //While usado para repetição, enquanto uma condição não acontecer irá ficar rodando o WHILE 
 while(chute != numeroSecreto){   
@@ -28,6 +27,7 @@ while(chute != numeroSecreto){
             alert(`O numero secreto é menor que: ` +chute);
         }
         tentativas++;
+        
     }
 }
 //Usando operadores ternários - usado como uma frase
@@ -36,5 +36,5 @@ alert(`Parabéns você descobriu o numero secreto ` +numeroSecreto+ ` com ${tent
 console.log('Parabéns você descobriu o numero secreto!!');
 // Adicione um console.log para verificar a comparação entre "chute" e "numeroSecreto"
 console.log('Resultado da comparação:', chute == numeroSecreto);
-console.log('Valor do chute:', chute);
+console.log('Número do chute:', chute);
 console.log('Tentativas para acerto do numero secreto', tentativas);
