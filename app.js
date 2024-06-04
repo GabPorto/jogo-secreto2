@@ -1,5 +1,6 @@
+
 //Definindo uma mensagem
-alert('Seja Bem Vindo!! Jogo do Número Secreto!!');
+alert('Seja Bem Vindo! Jogo - Número Secreto!!');
 
 let numeroMaximo = 10;
 //declarando uma variável - ultilizar "LET"
